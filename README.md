@@ -1,6 +1,7 @@
-# Chemical Engineering Aspects of Green Hydrogen Production via PEM Electrolysis Visualization
+# PEM Hydrogen Production Visualisation
 
-**Date:** May 2, 2025
+**Chemical Engineering Aspects of Green Hydrogen Production via PEM Electrolysis**
+**Date:**\*\* May 2, 2025
 **Authors:** Lokesh Gottapu (M.Sc. CEE), Sai Teja Dampanaboina (M.Sc. Informatik), Syed Muhammad Abdul Basit (M.Sc. CEE)
 **Supervisors:** Dr.-Ing. Nicole Vorhauer (FVST), Dr.-Ing. David Broneske (FIN)
 
@@ -250,14 +251,12 @@ Q_gen = (U_stack - 40·V_tn) · I_stack
 
 ### Usage
 
-1. Clone the repository.
-2. Open `GreenH2Visualization.sln` in Rider.
-3. Load the Unity project (`Assets/` folder).
-4. Build and run on Windows platform.
-5. Use keyboard/mouse to navigate scenes and overlays.
-6. (Optional) Download the pre-built WebGL version from [flotronteam Website](https://flotronteam.github.io/Hydrogen_Production_Visualisation/) to run directly in your browser.
+1. **Download the pre-built Windows application** from [flotronteam GitHub Pages](https://flotronteam.github.io/Hydrogen_Production_Visualisation/).
+2. Unzip the downloaded archive.
+3. Run the executable (`PEM Hydrogen Production Visualisation.exe`) to launch the app.
+4. Use keyboard and mouse to navigate between [scenes, adjust parameter](https://flotronteam.github.io/Hydrogen_Production_Visualisation/)s, and view[ metrics.](https://flotronteam.github.io/Hydrogen_Production_Visualisation/)
 
-### Implementation Highlights
+### [Implementat](https://flotronteam.github.io/Hydrogen_Production_Visualisation/)ion Highlights
 
 * **State Machine** drives visuals and interactions.
 * **LineRenderer** + arrowheads for flow lines.
